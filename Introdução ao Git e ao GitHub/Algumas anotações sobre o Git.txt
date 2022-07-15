@@ -1,4 +1,4 @@
-E GITHUB
+GIT E GITHUB
 
 SHA1: Significa Secure Hash Algorithm (Algoritmo de Hash Seguro), é um conjunto de funções hash criptográficas projetadas pela NSA (Agência de Segurança Nacional dos EUA).
 Ele vai pegar um arquivo (foto, vídeo) e irá embaralhar ele. A encriptação gera conjunto de caracteres identificador de 40 dígitos. Esse conjunto é único e serve como identificação de uma forma segura e rápida. 
