@@ -1,0 +1,22 @@
+E GITHUB
+
+SHA1: Significa Secure Hash Algorithm (Algoritmo de Hash Seguro), é um conjunto de funções hash criptográficas projetadas pela NSA (Agência de Segurança Nacional dos EUA).
+Ele vai pegar um arquivo (foto, vídeo) e irá embaralhar ele. A encriptação gera conjunto de caracteres identificador de 40 dígitos. Esse conjunto é único e serve como identificação de uma forma segura e rápida. 
+Basicamente é uma forma curta de identificar um arquivo. (openssl sha1).
+
+OBJETOS FUNDAMENTAIS DO GIT
+
+BLOBS (bolhas): Os arquivos ficam guardados aqui, ele armazena o tipo do arquivo, o tamanho da string ou do arquivo, e uma barra invertida com o zero (\0) e com o conteúdo do arquivo. Elas possuem o sha1 do arquivo.
+
+TREES (árvores): Armazenam blocos e possui dados, guardando o arquivo e o seu nome. Ela monta a estrutura de onde estão os arquivos, apontando blobs e outras trees. As árvores apontam para os blobs e tem o sha1 com os metadados das árvores.
+
+COMMITS: Ele junta e dá sentido a tudo, aponta árvore, o parente, autor e a mensagem. Dá significado aos arquivos (blobs) dentro das pastas (trees), levando o horário, data em que foi criado. Eles também possuem o sha1, conforme as alterações das blobs, da árvore e dos commits.
+
+CHAVES SSH: Forma de estabelecer uma conexão segura encriptada entre duas máquinas. Servidor do GITHUB e a nossa máquina local. Chave pública e chave privada. 
+
+GITHUB: Plataforma em nuvem que armazena seus códigos e arquivos. Para entrar nela é necessária uma autenticação. (nome de usuário e de senha).
+
+COMANDOS PARA UTILIZAR NO GIT
+-git init: Inicializa e cria um repositório dentro daquele diretório
+-git add: Mover arquivos
+-git commit -m: Criar um commit
